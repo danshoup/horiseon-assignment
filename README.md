@@ -14,6 +14,6 @@ This is the first assigment for MSU Bootcamp; refactoring existing code to meet 
 - Ensure title element includes a concise, descriptive title.
 
 ### Image
-![Landing Page Screen Shot](image.jpg)
+![Landing Page Screen Shot](assets/images/image-screenshot.jpg)
 
 
