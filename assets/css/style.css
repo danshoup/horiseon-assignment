@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header with <nav> inline and floating right. */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,15 +42,24 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* <nav> href links with no underline */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Changed the <p> font weight to better match the assignment mock-up. */
 p {
     font-size: 16px;
+    font-weight: 400;
 }
 
+/* Bottom margin on the <p> element to put space between the next heading */
+aside p {
+    margin-bottom: 20px;
+}
+
+/* This is a background picture under the header and <nav> bar */
 .picture {
     height: 800px;
     width: 100%;
@@ -58,6 +68,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* The images in the <main> section alternate floating left and right. */
 
 .float-left {
     float: left;
@@ -74,6 +86,13 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
+/* Added this styling to better match the font weight of the h2 heading in the assignment mock-up. */
+.content h2 {
+    font-weight: 600;
+}
+
+/* Three main content sections separated and styled with different classes. */
 
 .search-engine-optimization {
     display: block;
@@ -132,6 +151,7 @@ p {
     font-size: 36px;
 }
 
+/* All of the .benfits class formated to be to the right of the main content. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -141,6 +161,11 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+}
+
+/* Added this styling so the <aside> h3 headings would better match the style of the assignment mock-up. */
+.benefits h3 {
+    font-weight: 600;
 }
 
 .benefit-lead {
@@ -191,6 +216,7 @@ p {
     max-width: 150px;
 }
 
+/* Footer centered at bottom with appropriate font size and information. */
 footer {
     padding: 30px;
     clear: both;
