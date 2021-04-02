@@ -26,7 +26,7 @@ This is the first assigment for MSU Coding Bootcamp; refactoring existing code t
 - GitHub repository contains appropriate code.
 - Published page resembles mock-up.
 - Repository has a unique name.
-- Best practice class/id nameing followed.
+- Best practice class/id naming followed.
 - Multiple descriptive commit messages used.
 - Quality README.md file with a description, screenshot, and link to deployed app.
 
