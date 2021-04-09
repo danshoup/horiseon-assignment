@@ -92,9 +92,9 @@ aside p {
     font-weight: 600;
 }
 
-/* Three main content sections separated and styled with different classes. */
+/* Three main content sections consolidated and styed. */
 
-.search-engine-optimization {
+main section {
     display: block;
     margin-bottom: 20px;
     padding: 50px;
@@ -104,49 +104,11 @@ aside p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    display: block;
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    display: block;
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+main img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+main h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -163,54 +125,19 @@ aside p {
     background-color: #2589bd;
 }
 
-/* Added this styling so the <aside> h3 headings would better match the style of the assignment mock-up. */
+/* Added this styling so the <aside> so it would better match the style of the assignment mock-up. */
+.benefits {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
 .benefits h3 {
     font-weight: 600;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -224,6 +151,6 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer h4 {
     font-size: 20px;
 }
